@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioObjects", "MarioObjects\MarioObjects.csproj", "{5494C1DD-9401-4472-93C0-CA9D620BE728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioLevelEditor", "MarioLevelEditor\MarioLevelEditor.csproj", "{C846A2F7-1728-41E0-971C-1B724C2015DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5494C1DD-9401-4472-93C0-CA9D620BE728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5494C1DD-9401-4472-93C0-CA9D620BE728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5494C1DD-9401-4472-93C0-CA9D620BE728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5494C1DD-9401-4472-93C0-CA9D620BE728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C846A2F7-1728-41E0-971C-1B724C2015DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C846A2F7-1728-41E0-971C-1B724C2015DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C846A2F7-1728-41E0-971C-1B724C2015DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C846A2F7-1728-41E0-971C-1B724C2015DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9184EC20-759C-4457-9B23-1B36D9FC2561}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\bin\Debug\MarioLevelEditor.exe
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\bin\Debug\MarioLevelEditor.pdb
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.csprojAssemblyReference.cache
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.MainForm.resources
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.Properties.Resources.resources
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.csproj.GenerateResource.cache
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.csproj.CoreCompileInputs.cache
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.csproj.CopyComplete
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.exe
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.pdb
