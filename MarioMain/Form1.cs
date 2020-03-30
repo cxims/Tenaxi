@@ -51,5 +51,19 @@ namespace MarioMain
                 }
             }
         }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Saver Saver = new Saver();
+            Saver.Show();
+        }
+
+        private void load_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Loader Loader = new Loader();
+            Loader.Show();
+        }
     }
 }

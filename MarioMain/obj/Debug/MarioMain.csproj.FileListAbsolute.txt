@@ -23,3 +23,5 @@ C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioMain\bin\Debug\MarioLevelEditor.
 C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioMain\bin\Debug\MarioObjects.exe
 C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioMain\bin\Debug\MarioLevelEditor.pdb
 C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioMain\bin\Debug\MarioObjects.pdb
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioMain\obj\Debug\MarioMain.Loader.resources
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioMain\obj\Debug\MarioMain.Saver.resources

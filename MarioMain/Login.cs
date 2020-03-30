@@ -10,6 +10,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MarioMain.Models;
+using MarioMain.Utils;
 
 
 namespace MarioMain
@@ -33,7 +34,8 @@ namespace MarioMain
             var response = await client.PostAsJsonAsync(URL, newUser);
 
             if (response.IsSuccessStatusCode)
-            {
+            {            
+                Globals.IdUser = int.Parse(await response.Content.ReadAsStringAsync());
                 this.Hide();
                 Form1 Form1 = new Form1();
                 Form1.Show();
@@ -49,6 +51,26 @@ namespace MarioMain
             this.Hide();
             LoginForm LoginForm = new LoginForm();
             LoginForm.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
