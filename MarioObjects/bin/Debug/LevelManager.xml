@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LevelManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CurrentLevelIndex>1</CurrentLevelIndex>
-  <MarioLives>4</MarioLives>
+  <MarioLives>3</MarioLives>
   <LevelFilePaths>
     <string>lev1.xml</string>
     <string>Level2.xml</string>

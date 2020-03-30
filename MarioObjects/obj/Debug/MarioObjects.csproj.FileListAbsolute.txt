@@ -7,3 +7,11 @@ D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Debug\MarioObject
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Debug\MarioObjects.exe
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Debug\MarioObjects.pdb
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Debug\MarioObjects.csprojAssemblyReference.cache
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\bin\Debug\MarioObjects.exe
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\bin\Debug\MarioObjects.pdb
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\obj\Debug\MarioObjects.csprojAssemblyReference.cache
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\obj\Debug\MarioObjects.frmMain.resources
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\obj\Debug\MarioObjects.Properties.Resources.resources
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\obj\Debug\MarioObjects.csproj.GenerateResource.cache
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\obj\Debug\MarioObjects.exe
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\obj\Debug\MarioObjects.pdb

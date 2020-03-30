@@ -8,3 +8,12 @@ D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLe
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.csproj.CopyComplete
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.exe
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioLevelEditor\obj\Debug\MarioLevelEditor.pdb
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\bin\Debug\MarioLevelEditor.exe
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioObjects\bin\Debug\MarioLevelEditor.pdb
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.csprojAssemblyReference.cache
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.MainForm.resources
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.Properties.Resources.resources
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.csproj.GenerateResource.cache
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.csproj.CopyComplete
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.exe
+C:\Users\coco\Documents\ProjetIA-B3\Tenaxi\MarioLevelEditor\obj\Debug\MarioLevelEditor.pdb
