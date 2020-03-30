@@ -22,6 +22,8 @@ namespace MarioObjects.Objects.GameObjects
         public Boolean EnterPressed;
         public Boolean Blinking;
         public Boolean BlinkingShow;
+        public double deathPositionX;
+        public double deathPositionY;
         public int BlinkValue;
 
         // Y Jumping
@@ -39,6 +41,7 @@ namespace MarioObjects.Objects.GameObjects
 
         public List<FireBall> FireBalls;
         public int FireBallIndex;
+
 
         /// <summary>
         /// Number of coins Mario collected in the current level
@@ -176,22 +179,12 @@ namespace MarioObjects.Objects.GameObjects
                 case ObjectType.OT_Exit:
                 {
                     if (EnterPressed)
-                    {
-                        EnterPressed = false;
-                        OnLevelCompleted?.Invoke();
-                        //System.Windows.Forms.MessageBox.Show("Very Good !");
-                    }
-                    break;
-                } 
-                case ObjectType.OT_Flower:
-                {
-                    ((Flower)g).Visible = false;
-                    if (Type != MarioType.MT_Fire)
-                    {
-                        Type = MarioType.MT_Fire;
-                        SetMarioProperties();
-                        Media.PlaySound(Media.SoundType.ST_Mush);
-                    }
+                        {
+                            EnterPressed = false;
+                            //OnLevelCompleted?.Invoke();
+                            System.Windows.Forms.MessageBox.Show("You won !");
+                            StopMove();
+                        }                   
                     break;
                 } 
                 case ObjectType.OT_Goomba:
@@ -206,9 +199,15 @@ namespace MarioObjects.Objects.GameObjects
                                 StartJump(true, -20);
 
                             ((Goomba)g).GoombaDie();
-                            Media.PlaySound(Media.SoundType.ST_Stomp);
                         }
                     }
+
+                    if (c.Dir == CollisionDirection.CD_Left)
+                        {
+                            deathPositionX = x;
+                            deathPositionY = y;
+                            StopMove();
+                        }
                     break;
                 } 
 
@@ -271,6 +270,7 @@ namespace MarioObjects.Objects.GameObjects
                             //if (MoveState == MarioMoveState.J_Left)
                             //    x += (int)XAdd;
                             this.x = g.newx - width;
+                                
                         }
                     }
 
@@ -287,11 +287,9 @@ namespace MarioObjects.Objects.GameObjects
                                 if (Type == MarioType.MT_Big || Type == MarioType.MT_Fire)
                                 {
                                     ((Block)g).BreakBrick();
-                                    Media.PlaySound(Media.SoundType.ST_Brick);
                                 }
                                 else
                                 {
-                                    Media.PlaySound(Media.SoundType.ST_Block);
                                 }
 
                             }
@@ -316,6 +314,11 @@ namespace MarioObjects.Objects.GameObjects
                 Direction = MarioDir.MD_Right;
             else
                 Direction = MarioDir.MD_Left;
+
+            if (x == deathPositionX - 80)
+            {
+                System.Windows.Forms.MessageBox.Show("Je dois sauter");
+            }
 
             this.x += x;
             SetDirections();
@@ -467,6 +470,13 @@ namespace MarioObjects.Objects.GameObjects
                 if (s == MarioMoveState.J_Right)
                     Direction = MarioDir.MD_Right;
 
+            if (x == deathPositionX - 10)
+            {
+                UpPressed = true;
+                Jumping = true;
+                State = MarioJumpState.J_Up;
+            }
+
             // LevelGenerator.Raise_Event(LevelGenerator.LevelEvent.LE_Check_Collision);
         }
 
@@ -485,6 +495,7 @@ namespace MarioObjects.Objects.GameObjects
                         Direction = MarioDir.MD_Right; break;
                 }
 
+
                 MoveState = MarioMoveState.J_Stopping;
 
                 //bug walls
@@ -498,10 +509,13 @@ namespace MarioObjects.Objects.GameObjects
         }
         public void OnMoveTick(Object sender, EventArgs e)
         {
+
+
             if (y > LevelGenerator.CurrentLevel.height + 50)
             {
                 MarioDie();
             }
+
 
             if (MoveState != MarioMoveState.J_None && MoveState != MarioMoveState.J_Stopping)
             {
@@ -523,6 +537,10 @@ namespace MarioObjects.Objects.GameObjects
                     if (MoveState == MarioMoveState.J_Left)
                         x -= 3 + (int)XAdd;
                 }
+
+                UpPressed = true;
+
+
             }
             if (MoveState == MarioMoveState.J_Stopping)
             {
@@ -544,6 +562,8 @@ namespace MarioObjects.Objects.GameObjects
                     Moving = false;
                 }
             }
+
+
         }
 
         public override void OnAnimate(object sender, EventArgs e)
@@ -614,13 +634,14 @@ namespace MarioObjects.Objects.GameObjects
             NumberOfCollectedCoins = 0;
 
 
-            Moving = false;
+            Moving = true;
             Jumping = false;
             Direction = MarioDir.MD_Right;
+            EnterPressed = true;
 
 
             State = MarioJumpState.J_None;
-            MoveState = MarioMoveState.J_None;
+            MoveState = MarioMoveState.J_Right;
 
             TimerGenerator.AddTimerEventHandler(TimerType.TT_100, OnAnimate);
             TimerGenerator.AddTimerEventHandler(TimerType.TT_50, OnJumpTick);
