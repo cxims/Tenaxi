@@ -57,7 +57,7 @@ namespace MarioObjects
             this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pMain.Location = new System.Drawing.Point(0, 0);
             this.pMain.Name = "pMain";
-            this.pMain.Size = new System.Drawing.Size(486, 335);
+            this.pMain.Size = new System.Drawing.Size(1083, 400);
             this.pMain.TabIndex = 0;
             this.pMain.TabStop = false;
             this.pMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pMain_Paint);
@@ -66,7 +66,7 @@ namespace MarioObjects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 335);
+            this.ClientSize = new System.Drawing.Size(1083, 400);
             this.Controls.Add(this.pMain);
             this.DoubleBuffered = true;
             this.Name = "frmMain";

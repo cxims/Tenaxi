@@ -14,17 +14,6 @@
   <Object>
     <OName>Block</OName>
     <X>1</X>
-    <Y>1</Y>
-    <Int1>0</Int1>
-    <Int2>0</Int2>
-    <Int3>0</Int3>
-    <Bool1>false</Bool1>
-    <Bool2>false</Bool2>
-    <Bool3>false</Bool3>
-  </Object>
-  <Object>
-    <OName>Block</OName>
-    <X>1</X>
     <Y>0</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
@@ -57,17 +46,6 @@
   </Object>
   <Object>
     <OName>Block</OName>
-    <X>5</X>
-    <Y>0</Y>
-    <Int1>0</Int1>
-    <Int2>0</Int2>
-    <Int3>0</Int3>
-    <Bool1>false</Bool1>
-    <Bool2>false</Bool2>
-    <Bool3>false</Bool3>
-  </Object>
-  <Object>
-    <OName>Block</OName>
     <X>4</X>
     <Y>0</Y>
     <Int1>0</Int1>
@@ -80,6 +58,17 @@
   <Object>
     <OName>Block</OName>
     <X>6</X>
+    <Y>0</Y>
+    <Int1>0</Int1>
+    <Int2>0</Int2>
+    <Int3>0</Int3>
+    <Bool1>false</Bool1>
+    <Bool2>false</Bool2>
+    <Bool3>false</Bool3>
+  </Object>
+  <Object>
+    <OName>Block</OName>
+    <X>5</X>
     <Y>0</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
@@ -188,6 +177,17 @@
     <Bool3>false</Bool3>
   </Object>
   <Object>
+    <OName>Mario</OName>
+    <X>0</X>
+    <Y>1</Y>
+    <Int1>0</Int1>
+    <Int2>0</Int2>
+    <Int3>0</Int3>
+    <Bool1>false</Bool1>
+    <Bool2>false</Bool2>
+    <Bool3>false</Bool3>
+  </Object>
+  <Object>
     <OName>Block</OName>
     <X>16</X>
     <Y>0</Y>
@@ -244,7 +244,7 @@
   </Object>
   <Object>
     <OName>Block</OName>
-    <X>22</X>
+    <X>21</X>
     <Y>0</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
@@ -255,7 +255,7 @@
   </Object>
   <Object>
     <OName>Block</OName>
-    <X>21</X>
+    <X>22</X>
     <Y>0</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
@@ -287,6 +287,17 @@
     <Bool3>false</Bool3>
   </Object>
   <Object>
+    <OName>Flag_Win</OName>
+    <X>24</X>
+    <Y>1</Y>
+    <Int1>0</Int1>
+    <Int2>0</Int2>
+    <Int3>0</Int3>
+    <Bool1>false</Bool1>
+    <Bool2>false</Bool2>
+    <Bool3>false</Bool3>
+  </Object>
+  <Object>
     <OName>Block</OName>
     <X>25</X>
     <Y>0</Y>
@@ -299,18 +310,7 @@
   </Object>
   <Object>
     <OName>Block</OName>
-    <X>26</X>
-    <Y>0</Y>
-    <Int1>0</Int1>
-    <Int2>0</Int2>
-    <Int3>0</Int3>
-    <Bool1>false</Bool1>
-    <Bool2>false</Bool2>
-    <Bool3>false</Bool3>
-  </Object>
-  <Object>
-    <OName>Flag_Win</OName>
-    <X>26</X>
+    <X>25</X>
     <Y>1</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
@@ -320,8 +320,8 @@
     <Bool3>false</Bool3>
   </Object>
   <Object>
-    <OName>Mario</OName>
-    <X>1</X>
+    <OName>Block</OName>
+    <X>25</X>
     <Y>2</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
@@ -331,9 +331,9 @@
     <Bool3>false</Bool3>
   </Object>
   <Object>
-    <OName>Goomba</OName>
-    <X>9</X>
-    <Y>1</Y>
+    <OName>Block</OName>
+    <X>25</X>
+    <Y>3</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
     <Int3>0</Int3>
@@ -342,9 +342,9 @@
     <Bool3>false</Bool3>
   </Object>
   <Object>
-    <OName>Goomba</OName>
-    <X>18</X>
-    <Y>1</Y>
+    <OName>Block</OName>
+    <X>25</X>
+    <Y>4</Y>
     <Int1>0</Int1>
     <Int2>0</Int2>
     <Int3>0</Int3>

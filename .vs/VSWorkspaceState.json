@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MarioObjects",
+    "\\MarioObjects\\Objects",
+    "\\MarioObjects\\Objects\\GameObjects"
   ],
   "SelectedNode": "\\MarioObjects.sln",
   "PreviewInSolutionExplorer": false
