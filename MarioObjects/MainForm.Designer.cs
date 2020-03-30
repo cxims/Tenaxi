@@ -57,6 +57,7 @@ namespace MarioObjects
             this.pMain.Size = new System.Drawing.Size(1083, 400);
             this.pMain.TabIndex = 0;
             this.pMain.TabStop = false;
+            this.pMain.Click += new System.EventHandler(this.pMain_Click);
             this.pMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pMain_Paint);
             // 
             // frmMain

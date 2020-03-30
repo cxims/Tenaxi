@@ -181,8 +181,11 @@ namespace MarioObjects.Objects.GameObjects
                             MoveState = MarioMoveState.J_None;
                             //OnLevelCompleted?.Invoke();
                             //StartJump(true, 0);
-                            System.Windows.Forms.MessageBox.Show("You won !");
-
+                            System.Windows.Forms.DialogResult dialog = System.Windows.Forms.MessageBox.Show("You won");
+                            if (dialog == System.Windows.Forms.DialogResult.OK)
+                            {
+                                System.Windows.Forms.Application.Exit();
+                            }
                             StopMove();
                         }                   
                     break;

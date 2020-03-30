@@ -31,6 +31,7 @@
             this.signin = new System.Windows.Forms.Button();
             this.login = new System.Windows.Forms.Button();
             this.Offline = new System.Windows.Forms.Button();
+            this.exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // signin
@@ -66,12 +67,24 @@
             this.Offline.UseVisualStyleBackColor = false;
             this.Offline.Click += new System.EventHandler(this.Offline_Click);
             // 
+            // exit
+            // 
+            this.exit.BackColor = System.Drawing.Color.Beige;
+            this.exit.Location = new System.Drawing.Point(230, 320);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(330, 40);
+            this.exit.TabIndex = 5;
+            this.exit.Text = "Exit";
+            this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MarioMain.Properties.Resources.bgblock;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.exit);
             this.Controls.Add(this.Offline);
             this.Controls.Add(this.signin);
             this.Controls.Add(this.login);
@@ -87,5 +100,6 @@
         private System.Windows.Forms.Button signin;
         private System.Windows.Forms.Button login;
         private System.Windows.Forms.Button Offline;
+        private System.Windows.Forms.Button exit;
     }
 }

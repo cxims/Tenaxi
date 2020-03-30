@@ -17,6 +17,7 @@ namespace MarioMain
         public Form1()
         {
             InitializeComponent();
+            load.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -64,6 +65,11 @@ namespace MarioMain
             this.Hide();
             Loader Loader = new Loader();
             Loader.Show();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -15,6 +15,7 @@ namespace MarioMain
         public LoginForm()
         {
             InitializeComponent();
+            Offline.Hide();
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -41,6 +42,11 @@ namespace MarioMain
             this.Hide();
             Form1 Form1 = new Form1();
             Form1.Show();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

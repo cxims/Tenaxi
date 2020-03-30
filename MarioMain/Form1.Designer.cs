@@ -34,6 +34,7 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.load = new System.Windows.Forms.Button();
             this.save = new System.Windows.Forms.Button();
+            this.exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // levelEditor
@@ -80,12 +81,24 @@
             this.save.UseVisualStyleBackColor = false;
             this.save.Click += new System.EventHandler(this.save_Click);
             // 
+            // exit
+            // 
+            this.exit.BackColor = System.Drawing.Color.Beige;
+            this.exit.Location = new System.Drawing.Point(220, 322);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(330, 40);
+            this.exit.TabIndex = 4;
+            this.exit.Text = "Exit";
+            this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MarioMain.Properties.Resources.bgblock;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.exit);
             this.Controls.Add(this.save);
             this.Controls.Add(this.load);
             this.Controls.Add(this.gameLauncher);
@@ -106,6 +119,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Windows.Forms.Button load;
         private System.Windows.Forms.Button save;
+        private System.Windows.Forms.Button exit;
     }
 }
 

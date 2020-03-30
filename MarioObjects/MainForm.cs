@@ -177,5 +177,9 @@ namespace MarioObjects
             Logger.Instance.Log_Method(Diff.ToString());
         }
 
+        private void pMain_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

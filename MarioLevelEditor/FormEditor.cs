@@ -108,7 +108,9 @@ namespace MarioLevelEditor
             MainImage = ImageGenerator.GetImage(ObjectType.OT_BG_Block);
             Invalidate();
             LoadEditorObjects();
-    
+
+            Objects = MarioEditorXML.Load_From_XML("lev1.xml");
+            SetListIndexToObjects();
         }
 
         private void MainForm_Paint(object sender, PaintEventArgs e)
@@ -247,6 +249,8 @@ namespace MarioLevelEditor
 
             if (dOpen.FileName.Length == 0)
                 return;
+
+            MessageBox.Show(dOpen.FileName);
 
             FileName = dOpen.FileName;
             Objects = MarioEditorXML.Load_From_XML(dOpen.FileName);
