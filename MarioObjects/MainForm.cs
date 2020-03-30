@@ -55,8 +55,6 @@ namespace MarioObjects
             
             Left = SystemInformation.PrimaryMonitorSize.Width / 2 - this.Width / 2;
             Top = SystemInformation.PrimaryMonitorSize.Height / 2 - this.Height / 2;
-            
-            Media.PlaySound(Media.SoundType.ST_level2);
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -87,10 +85,10 @@ namespace MarioObjects
                 lev.MarioObject.StartJump(false,0);
 
             if (e.KeyValue == (int)Keys.Right || KeyRight)
-                lev.MarioObject.MarioMove(Mario.MarioMoveState.J_Right);
+                lev.MarioObject.MarioMove(Character.MarioMoveState.J_Right);
 
             if (e.KeyValue == (int)Keys.Left || KeyLeft)
-                lev.MarioObject.MarioMove(Mario.MarioMoveState.J_Left);
+                lev.MarioObject.MarioMove(Character.MarioMoveState.J_Left);
 
             if (e.KeyValue == (int)Keys.Space)
                 lev.MarioObject.MarioFireBall();
@@ -132,7 +130,6 @@ namespace MarioObjects
 
             lev = LevelManager.Instance.LoadLevel(levelLoadType);
 
-            lev.MarioObject.OnLevelCompleted += (() => Load_Level(LevelManagerLoadTypes.NEXT));
             lev.MarioObject.OnMarioDied += (() => Load_Level(LevelManagerLoadTypes.RELOAD));
 
             lev.MarioObject.x = 20;

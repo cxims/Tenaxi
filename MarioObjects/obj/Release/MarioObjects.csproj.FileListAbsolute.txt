@@ -6,3 +6,4 @@ D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Release\MarioObje
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Release\MarioObjects.csproj.CoreCompileInputs.cache
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Release\MarioObjects.exe
 D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Release\MarioObjects.pdb
+D:\Logiciel\VisualStudio\C#\Mario-Game-master\MarioObjects\obj\Release\MarioObjects.csprojAssemblyReference.cache

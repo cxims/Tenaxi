@@ -113,9 +113,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="bgblock.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MarioObjects\MarioObjects.csproj">
       <Project>{5494C1DD-9401-4472-93C0-CA9D620BE728}</Project>
       <Name>MarioObjects</Name>

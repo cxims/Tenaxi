@@ -17,9 +17,6 @@ namespace MarioObjects
             {
                 components.Dispose();
 
-                if (Media.SOUND_ENABLE)
-                    Media.Instance.Destroy();
-
             }
             base.Dispose(disposing);
 

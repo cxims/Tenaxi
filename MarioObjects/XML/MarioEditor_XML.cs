@@ -99,7 +99,7 @@ namespace MarioObjects
                 lev.AddObject(g);
                 if(g.OT == ObjectType.OT_Mario)
                 {
-                    lev.MarioObject = (Mario)g;
+                    lev.MarioObject = (Character)g;
                 }
             }
 
