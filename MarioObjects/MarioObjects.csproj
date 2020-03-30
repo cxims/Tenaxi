@@ -102,8 +102,9 @@
     <Compile Include="Objects\GameObjects\Flag_Win.cs" />
     <Compile Include="Objects\GameObjects\FireBall.cs" />
     <Compile Include="Objects\GameObjects\Flower.cs" />
-    <Compile Include="Objects\GameObjects\Mario.cs" />
-    <Compile Include="Objects\GameObjects\Goomba.cs" />
+    <Compile Include="Objects\GameObjects\Character.cs" />
+    <Compile Include="Objects\GameObjects\Globals.cs" />
+    <Compile Include="Objects\GameObjects\Monster.cs" />
     <Compile Include="Objects\Patterns\VisitorCheckObjectEnabled.cs" />
     <Compile Include="Objects\Patterns\VisitorObject.cs" />
     <Compile Include="Objects\Utils\ImageGenerator.cs" />
@@ -143,7 +144,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Sound.cs" />
     <Compile Include="XML\LevelManager.cs" />
     <Compile Include="XML\levelXML.cs" />
     <Compile Include="XML\MarioEditor_XML.cs" />

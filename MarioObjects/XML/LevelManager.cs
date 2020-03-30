@@ -45,7 +45,7 @@ namespace MarioObjects
         public LevelManager()
         {
             CurrentLevelIndex = 0;
-            MarioLives = 5;
+            MarioLives = 15555;
             LevelFilePaths = new List<string>();
         }
 
@@ -111,9 +111,9 @@ namespace MarioObjects
                 MarioLives--;
                 if(MarioLives == 0)
                 {
-                    MessageBox.Show("Mario is out of lives. You start from the first level again.", "Out of lives.", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("You are out of lives. You start from the first level again.", "Out of lives.", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     CurrentLevelIndex = 0;
-                    MarioLives = 5;
+                    MarioLives = 500;
                 }
             }
 

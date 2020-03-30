@@ -316,7 +316,6 @@ namespace MarioLevelEditor
             this.Controls.Add(this.PTop);
             this.Controls.Add(this.pButtom);
             this.DoubleBuffered = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Level Editor";

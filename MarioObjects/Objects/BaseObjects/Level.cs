@@ -30,7 +30,7 @@ namespace MarioObjects.Objects.BaseObjects
 
         public Bitmap LevelBitmap;
 
-        public Mario MarioObject;
+        public Character MarioObject;
 
         public int width, height;
 

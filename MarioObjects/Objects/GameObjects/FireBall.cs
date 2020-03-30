@@ -49,7 +49,7 @@ namespace MarioObjects.Objects.GameObjects
                 {
                     if (Type == FireBallType.FT_Mario)
                     {
-                        ((Goomba)g).GoombaFallDie();
+                        ((Monster)g).GoombaFallDie();
 
                         Started = false;
                         Visible = false;
@@ -61,7 +61,7 @@ namespace MarioObjects.Objects.GameObjects
                 {
                     if (Type != FireBallType.FT_Mario) // Make sure it isn't Mario's fireball
                     {
-                        Mario m = (Mario)g;
+                        Character m = (Character)g;
                         if (!m.Blinking)
                         {
                             m.MarioHandleCollision();
